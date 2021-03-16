@@ -19,6 +19,7 @@
 
 
     <dependencies>
+
         <dependency>
             <groupId>InSilico</groupId>
             <artifactId>VegaModels</artifactId>
@@ -26,147 +27,9 @@
         </dependency>
 
         <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>ambit2-base</artifactId>
-            <version>3.2.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>ambit2-core</artifactId>
-            <version>3.2.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>ambit2-rendering</artifactId>
-            <version>3.2.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>ambit2-smarts</artifactId>
-            <version>3.2.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>modbcum-i</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>modbcum-p</artifactId>
-            <version>1.0.9</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>toxtree-ames</artifactId>
-            <version>3.1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>toxtree-biodegradation</artifactId>
-            <version>3.1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>toxtree-core</artifactId>
-            <version>3.1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>toxtree-cramer</artifactId>
-            <version>3.1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>toxtree-cramer2</artifactId>
-            <version>3.1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>toxtree-cramer3</artifactId>
-            <version>3.1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>toxtree-dnabinding</artifactId>
-            <version>3.1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>toxtree-eye</artifactId>
-            <version>3.1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>toxtree-functional_groups</artifactId>
-            <version>3.1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>toxtree-kroes</artifactId>
-            <version>3.1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>toxtree-mic</artifactId>
-            <version>3.1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>toxtree-michealacceptors</artifactId>
-            <version>3.1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>toxtree-mutants</artifactId>
-            <version>3.1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>toxtree-proteinbinding</artifactId>
-            <version>3.1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>toxtree-sicret</artifactId>
-            <version>3.1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>toxtree-skinsensitization</artifactId>
-            <version>3.1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>toxtree-smartcyp</artifactId>
-            <version>3.1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>InSilico.ToxTree</groupId>
-            <artifactId>toxtree-verhaar</artifactId>
-            <version>3.1.0</version>
+            <groupId>InSilico</groupId>
+            <artifactId>ToxTreeWrapper</artifactId>
+            <version>1.0</version>
         </dependency>
 
 
