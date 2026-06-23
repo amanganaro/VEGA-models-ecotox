@@ -10,7 +10,7 @@ import insilico.core.molecule.conversion.SmilesMolecule;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import utils.ModelsDeployment;
+import insilico.core.devops.ModelsDeployment;
 
 import java.io.File;
 import java.io.FileOutputStream;

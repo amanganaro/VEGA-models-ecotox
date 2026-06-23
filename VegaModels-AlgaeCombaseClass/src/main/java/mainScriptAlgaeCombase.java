@@ -1,10 +1,10 @@
 import insilico.algae_combaseclass.ismAlgaeCombaseClass;
+import insilico.core.devops.ModelsDeployment;
 import insilico.core.localization.StringSelectorCore;
 import insilico.core.model.InsilicoModel;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import utils.ModelsDeployment;
 
 import java.io.File;
 import java.nio.file.Files;

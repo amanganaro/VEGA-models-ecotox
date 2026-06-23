@@ -5,7 +5,7 @@ import insilico.daphnia_epa.ismDaphniaEPA;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import utils.ModelsDeployment;
+import insilico.core.devops.ModelsDeployment;
 
 import java.io.File;
 import java.nio.file.Files;
