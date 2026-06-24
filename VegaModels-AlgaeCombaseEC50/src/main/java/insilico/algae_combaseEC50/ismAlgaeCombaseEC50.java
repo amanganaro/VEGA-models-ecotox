@@ -5,6 +5,10 @@ import insilico.core.ad.ADCheckACF;
 import insilico.core.ad.ADCheckDescriptorRange;
 import insilico.core.ad.ADCheckIndicesQuantitative;
 import insilico.core.ad.item.*;
+import insilico.core.auxiliary.protoqsar.algae.AlgaeClassificationANN;
+import insilico.core.auxiliary.protoqsar.algae.AlgaeDescriptors;
+import insilico.core.auxiliary.protoqsar.algae.AlgaeQuantitativeSVM;
+import insilico.core.auxiliary.protoqsar.filters.BiocideFilter;
 import insilico.core.constant.MessagesAD;
 import insilico.core.descriptor.DescriptorBlock;
 import insilico.core.descriptor.DescriptorsEngine;
@@ -16,10 +20,6 @@ import insilico.core.similarity.Similarity;
 import insilico.core.similarity.SimilarityDescriptors;
 import insilico.core.similarity.SimilarityDescriptorsBuilder;
 import insilico.core.tools.utils.ModelUtilities;
-import protoqsar.algae.AlgaeClassificationANN;
-import protoqsar.algae.AlgaeDescriptors;
-import protoqsar.algae.AlgaeQuantitativeSVM;
-import protoqsar.filters.BiocideFilter;
 
 import java.util.ArrayList;
 

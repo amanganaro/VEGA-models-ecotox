@@ -4,6 +4,9 @@ import insilico.core.ad.ADCheckACF;
 import insilico.core.ad.ADCheckDescriptorRange;
 import insilico.core.ad.ADCheckIndicesQuantitative;
 import insilico.core.ad.item.*;
+import insilico.core.auxiliary.protoqsar.filters.BiocideFilter;
+import insilico.core.auxiliary.protoqsar.sludge.SludgeDescriptors;
+import insilico.core.auxiliary.protoqsar.sludge.SludgeQuantitativeRegression;
 import insilico.core.constant.MessagesAD;
 import insilico.core.descriptor.DescriptorBlock;
 import insilico.core.descriptor.DescriptorsEngine;
@@ -14,9 +17,6 @@ import insilico.core.tools.utils.ModelUtilities;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import protoqsar.filters.BiocideFilter;
-import protoqsar.sludge.SludgeDescriptors;
-import protoqsar.sludge.SludgeQuantitativeRegression;
 
 
 import java.util.ArrayList;
