@@ -90,10 +90,12 @@
         <module>VegaModels-KmArnot</module>
         <module>VegaModels-MoaEpa</module>
         <module>VegaModels-MoaIRFMN</module>
+        <module>VegaModels-SDuckweedEC50Coral</module>
         <module>VegaModels-SludgeCombaseClass</module>
         <module>VegaModels-SludgeCombaseEC50</module>
         <module>VegaModels-VerhaarToxtree</module>
         <module>VegaModels-ZebrafishCoral</module>
+        <module>VegaModels-HarlequinNOECCoral</module>
 
 
         <!-- FATE        -->
@@ -190,6 +192,14 @@
             <groupId>InSilico</groupId>
             <artifactId>Core</artifactId>
             <version>1.3.21</version>
+        </dependency>
+
+        <dependency>
+            <groupId>InSilico</groupId>
+            <artifactId>Core</artifactId>
+            <version>1.3.21</version>
+            <type>test-jar</type>
+            <scope>test</scope>
         </dependency>
 
     </dependencies>

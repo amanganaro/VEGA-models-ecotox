@@ -1,0 +1,11 @@
+<xml>
+    <Version>
+        <Name>Harlequin fly NOEC chronic toxicity (CORAL)</Name>
+        <Key>HARLEQUINNOEC_CORAL</Key>
+        <Version>1.0.0</Version>
+    </Version>
+
+    <Vega>
+        <TS>/data/ts_harlequinnoec_coral.dat</TS>
+    </Vega>
+</xml>

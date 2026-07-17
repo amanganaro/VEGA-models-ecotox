@@ -1,0 +1,11 @@
+<xml>
+    <Version>
+        <Name>S. Duckweed (CORAL)</Name>
+        <Key>SDUCKWEED_CORAL</Key>
+        <Version>1.0.0</Version>
+    </Version>
+
+    <Vega>
+        <TS>/data/ts_sduckweedec50_coral.dat</TS>
+    </Vega>
+</xml>
