@@ -71,7 +71,7 @@ public class BCFMeylanIonicChecker extends AlertBlockFromSMARTS implements iAler
         try {
 
             for (int i=0; i<SMARTSFragments.length; i++)
-                SA[i] = SmartsPattern.create(SMARTSFragments[i], DefaultChemObjectBuilder.getInstance());
+                SA[i] = SmartsPattern.create(SMARTSFragments[i], DefaultChemObjectBuilder.getInstance()).setPrepare(false);
 
         } catch (Exception e) {
             throw new InitFailureException("Unable to initialize SMARTS");

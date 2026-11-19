@@ -184,7 +184,7 @@ public class BCFMeylanCorrectionsChecker extends AlertBlockFromSMARTS implements
                 if (SMARTSFragments[i].isEmpty())
                     SA[i] = null;
                 else
-                    SA[i] = SmartsPattern.create(SMARTSFragments[i], DefaultChemObjectBuilder.getInstance());
+                    SA[i] = SmartsPattern.create(SMARTSFragments[i], DefaultChemObjectBuilder.getInstance()).setPrepare(false);
             }
 
         } catch (Exception e) {
