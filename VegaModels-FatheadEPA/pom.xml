@@ -5,12 +5,12 @@
     <parent>
         <artifactId>VegaModels-Ecotox</artifactId>
         <groupId>InSilico</groupId>
-        <version>1.1</version>
+        <version>1.2</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>VegaModels-FatheadEPA</artifactId>
-    <version>1.0.10</version>
+    <version>1.0.11</version>
 
 
     <name>Fathead Minnow LC50 96h (EPA)</name>
@@ -24,6 +24,7 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.44</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 

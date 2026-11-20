@@ -5,12 +5,12 @@
     <parent>
         <artifactId>VegaModels-Ecotox</artifactId>
         <groupId>InSilico</groupId>
-        <version>1.1</version>
+        <version>1.2</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>VegaModels-FishNOEC</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
 
     <name>Fish Chronic (NOEC) Toxicity model (IRFMN)</name>
     <description>
@@ -23,7 +23,7 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.44</version>
-            <scope>compile</scope>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>InSilico</groupId>
