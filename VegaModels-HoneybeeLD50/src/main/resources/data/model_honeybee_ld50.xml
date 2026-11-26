@@ -1,0 +1,31 @@
+<xml>
+   
+    <Version>
+        <Name>Honeybees Oral Acute (LD50) Toxicity classification (IRFMN-EFSA)</Name>
+        <Key>LD50HONEYBEE_IRFMN</Key>
+        <Summary>QSAR classification model for oral acute toxicity (LD50) of pesticides toward Honeybees (Apis mellifera)</Summary>
+        <Version>1.0.0</Version>
+    </Version>
+    
+    <Vega>
+        <TS>/data/ts_honeybee_ld50.dat</TS>
+        <HasAlerts>False</HasAlerts>
+        <ClassValues>
+            <Class>
+                <Value>1</Value>
+                <Label>Toxic</Label>
+            </Class>
+            <Class>
+                <Value>0</Value>
+                <Label>Non Toxic</Label>
+            </Class>
+            <Class>
+                <Value>-1</Value>
+                <Label>None</Label>
+            </Class>
+        </ClassValues>
+        
+    </Vega>
+
+
+</xml>

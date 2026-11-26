@@ -97,6 +97,7 @@
         <module>VegaModels-ZebrafishCoral</module>
         <module>VegaModels-HarlequinNOECCoral</module>
         <module>VegaModels-BobwhiteLD50</module>
+        <module>VegaModels-HoneybeeLD50</module>
 
 
         <!-- FATE        -->
