@@ -1,0 +1,35 @@
+<xml>
+   
+    <Version>
+        <Name>Bobwhite Acute (LD50) Toxicity classification (IRFMN-EFSA)</Name>
+        <Key>LD50BOBWHITE_IRFMN</Key>
+        <Summary>QSAR classification model for bobwhite acute (LD50) toxicity</Summary>
+        <Version>1.0.0</Version>
+    </Version>
+    
+    <Vega>
+        <TS>/data/ts_bobwhite_ld50.dat</TS>
+        <HasAlerts>False</HasAlerts>
+        <ClassValues>
+            <Class>
+                <Value>2</Value>
+                <Label>High</Label>
+            </Class>
+            <Class>
+                <Value>1</Value>
+                <Label>Medium</Label>
+            </Class>
+            <Class>
+                <Value>0</Value>
+                <Label>Low</Label>
+            </Class>
+            <Class>
+                <Value>-1</Value>
+                <Label>None</Label>
+            </Class>
+        </ClassValues>
+        
+    </Vega>
+
+
+</xml>
